@@ -13,20 +13,19 @@ $ sudo chown -R $USER:$USER .
 
 In your project directory, edit the composeexample/settings.py file, make two changes
 
-> 1) Replace the DATABASES = ... with the following:
-
-```
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'postgres',
-            'USER': 'postgres',
-            'PASSWORD': 'postgres',
-            'HOST': 'db',
-            'PORT': 5432,
+1) Replace the DATABASES = ... with the following:
+    ```
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': 'postgres',
+                'USER': 'postgres',
+                'PASSWORD': 'postgres',
+                'HOST': 'db',
+                'PORT': 5432,
+            }
         }
-    }
-```
+    ```
 
 2) ``` 
     ALLOWED_HOSTS = ['*'] ```
