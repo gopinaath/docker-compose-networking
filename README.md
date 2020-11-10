@@ -15,7 +15,6 @@ In your project directory, edit the composeexample/settings.py file, make two ch
 
 1) Replace the DATABASES = ... with the following:
 
-\# settings.py
 ```
 DATABASES = {
     'default': {
@@ -29,14 +28,13 @@ DATABASES = {
 }
 ```
 
-2) 
-``` ALLOWED_HOSTS = ['*'] ```
+2) ``` ALLOWED_HOSTS = ['*'] ```
 
 ```
 # $ docker-compose up
 
 ```
-# http://localhost:8000
+Application is now available at: http://localhost:8000
 
 ```
 # $ docker-compose down
