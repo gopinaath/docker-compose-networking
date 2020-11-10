@@ -28,13 +28,13 @@ In your project directory, edit the composeexample/settings.py file, make two ch
     ```
 
 2) ``` 
-    ALLOWED_HOSTS = ['*'] ```
-
+    ALLOWED_HOSTS = ['*'] 
+    ```
 ```
-# $ docker-compose up
+$ docker-compose up
 ```
 Application is now available at: http://localhost:8000
 
 ```
-# $ docker-compose down
+$ docker-compose down
 ```
