@@ -29,9 +29,9 @@ DATABASES = {
 }
 ```
 
-2) ```
-ALLOWED_HOSTS = ['*']
-```
+2) 
+``` ALLOWED_HOSTS = ['*'] ```
+
 ```
 # $ docker-compose up
 
