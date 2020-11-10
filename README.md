@@ -2,13 +2,13 @@
 Learn-docker-compose-networking. Django sample here: https://docs.docker.com/compose/django/
 
 ```
-# $ git remote add github-docker-compose-networking https://github.com/gopinaath/docker-compose-networking.git
+$ git remote add github-docker-compose-networking https://github.com/gopinaath/docker-compose-networking.git
 
-# $ git push github-docker-compose-networking master
+$ git push github-docker-compose-networking master
 
+$ sudo docker-compose run web django-admin startproject composeexample .
 
-# $ sudo docker-compose run web django-admin startproject composeexample .
-# sudo chown -R $USER:$USER .
+$ sudo chown -R $USER:$USER .
 
 ```
 
