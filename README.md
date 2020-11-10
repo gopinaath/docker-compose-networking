@@ -1,6 +1,7 @@
 # docker-compose-networking
 Learn-docker-compose-networking. Django sample here: https://docs.docker.com/compose/django/
 
+```
 # $ git remote add github-docker-compose-networking https://github.com/gopinaath/docker-compose-networking.git
 
 # $ git push github-docker-compose-networking master
@@ -8,6 +9,8 @@ Learn-docker-compose-networking. Django sample here: https://docs.docker.com/com
 
 # $ sudo docker-compose run web django-admin startproject composeexample .
 # sudo chown -R $USER:$USER .
+
+```
 
 In your project directory, edit the composeexample/settings.py file.
 
@@ -29,8 +32,12 @@ DATABASES = {
 
 ALLOWED_HOSTS = ['*']
 
+```
 # $ docker-compose up
 
+```
 # http://localhost:8000
 
+```
 # $ docker-compose down
+```
