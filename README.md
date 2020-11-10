@@ -14,7 +14,7 @@ In your project directory, edit the composeexample/settings.py file.
 Replace the DATABASES = ... with the following:
 
 \# settings.py
-   
+```json   
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -25,6 +25,7 @@ DATABASES = {
         'PORT': 5432,
     }
 }
+```
 
 ALLOWED_HOSTS = ['*']
 
