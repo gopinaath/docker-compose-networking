@@ -32,7 +32,6 @@ DATABASES = {
 
 ```
 # $ docker-compose up
-
 ```
 Application is now available at: http://localhost:8000
 
