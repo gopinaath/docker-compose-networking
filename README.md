@@ -9,12 +9,11 @@ $ git push github-docker-compose-networking master
 $ sudo docker-compose run web django-admin startproject composeexample .
 
 $ sudo chown -R $USER:$USER .
-
 ```
 
-In your project directory, edit the composeexample/settings.py file.
+In your project directory, edit the composeexample/settings.py file, make two changes
 
-Replace the DATABASES = ... with the following:
+1) Replace the DATABASES = ... with the following:
 
 \# settings.py
 ```
@@ -30,8 +29,9 @@ DATABASES = {
 }
 ```
 
+2) ```
 ALLOWED_HOSTS = ['*']
-
+```
 ```
 # $ docker-compose up
 
